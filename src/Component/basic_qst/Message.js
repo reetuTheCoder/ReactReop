@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Message = ({text}) => {
+const Message = ({name}) => {
   return (
     <div>
-      <p>{text}</p>
+      <p>{`Hello, ${name}`}</p>
     </div>
   )
 }
